@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(5, 5, 44);
+    color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    height: 90px;
+  
+    background-color: rgb(18, 18, 62);
+}
+.left{
+    font-size: 1.5rem;
+}
+nav ul {
+    display: flex;
+    align-items: center  
+}
+nav ul li{
+    list-style: none;
+    margin: 0px 23px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+}
+.leftsection{
+    font-size: 3rem;
+    margin: 5% 0px;
+}
+.leftsection .btn{
+    background-color: rgba(18, 18, 117, 0);
+    color: white;
+    padding: 12px;
+    cursor:pointer;
+    border: 2px solid white;
+    border-radius: 9px;
+}
+.rightsection{
+    margin: 15px 0px;
+}
+.rightsection img{
+    border-radius: 50%;
+    margin: 5% 0px;
+}
+.leftsec h1{
+   font-size: 2.3rem;
+   margin: 15px;
+}
+.secondsection{
+    max-width: 80vw;
+   
+    height: 90vh;
+}
+.leftsec p{
+    font: size 25px;
+    margin: 20px 4px;
+}
+.secondsection .skill h1{
+    font-size: 2.3rem;
+    margin: 15px;
+}
+.secondsection ul li{
+    margin: 25px;
+    text-decoration: underline;
+    font-size: 1rem;
+    
+}
+.thirdsection{
+    max-width: 60vh; 
+    height: 70vh;
+}
+.thirdsection h1{
+    padding: 25px ;
+}
+.thirdsection li ,h4{
+    padding: 10px ;
+    
+}
+ footer{
+
+    background-color: #141436;
+    height: 40vh;
+ }
+footer {
+    padding: 20px;
+    text-align: center;
+  }
+   
+  .container {
+    max-width: 960px;
+    background-color: #141436;
+    margin: 0 auto;
+  }
+  
+  .container p {
+    margin: 0;
+    color: white;
+   
+  }  
